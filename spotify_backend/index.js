@@ -25,7 +25,7 @@ mongoose
     .connect(
         "mongodb+srv://nikiitabhoyar13:" +
             process.env.MONGO_PASSWORD +
-            "@cluster0.rntapcg.mongodb.net/?retryWrites=true&w=majority",
+            "@cluster0.rntapcg.mongodb.net/test?retryWrites=true&w=majority",
         {
             useNewUrlParser: true,
             useUnifiedTopology: true,
