@@ -4,7 +4,8 @@
   "description": "This will contain the backend code for the spotify clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npm rebuild bcrypt"
   },
   "author": "Agrim Chopra",
   "license": "ISC",
@@ -17,5 +18,9 @@
     "mongoose": "^6.10.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
+
